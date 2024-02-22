@@ -1,0 +1,177 @@
+/* Normalize CSS */
+/* Adapted from Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections */
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content */
+p {
+  margin: 0;
+}
+
+/* Text-level semantics */
+a {
+  background-color: transparent;
+}
+
+/* Embedded content */
+img {
+  border-style: none;
+}
+
+/* Forms */
+button,
+input,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/* Reset list styles */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Full-width border box */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.header .container {
+  width: 100%;
+  padding: 20px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.header .logo {
+  font-size: 28.6px;
+  line-height: 38.04px;
+  color: #83356f;
+}
+.header .menu {
+  display: grid;
+  gap: 80px;
+  grid-template-columns: repeat(6, auto);
+}
+.header .menu a {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+}
+.header .menu a .arrow-down {
+  width: 14px;
+  height: 14px;
+  margin-left: 6px;
+}
+
+.main .banner {
+  min-height: 91.8vh;
+  background-image: url(../img/background.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .banner .container {
+  padding: 50px 100px;
+}
+.main .banner .main-block {
+  max-width: 700px;
+}
+.main .banner .main-block h2 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 89px;
+}
+.main .banner .main-block p {
+  display: block;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 38px;
+  margin-bottom: 40px;
+}
+.main .banner .about-btn {
+  background-color: #83356f;
+  color: #ffffff;
+  padding: 20px 10px;
+  border-radius: 40px;
+  max-width: 250px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 45px;
+}
+.main .banner .stats-block_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .banner .stats-block_container .stats-block {
+  border-right: 1px solid #ead5bf;
+  border-left: 1px solid #ead5bf;
+  text-align: center;
+  padding: 20px 30px;
+}
+.main .banner .stats-block_container .stats-block .stats-block_year {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 25px;
+}
+.main .banner .stats-block_container .stats-block .stats-block_text {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 185px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}/*# sourceMappingURL=main.css.map */
